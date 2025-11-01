@@ -65,14 +65,14 @@ const Header = () => {
             <a
               key={item.name}
               href={item.href}
-              className="block text-gray-700 font-medium hover:text-red-600 py-2"
+              className="block text-gray-700 font-sans font-medium hover:text-red-600 py-2"
               onClick={() => setIsMobileMenuOpen(false)} // Close menu on click
             >
               {item.name}
             </a>
           ))}
           <a
-            href="https://forms.gle/your-google-form-link" // <-- !! REPLACE WITH YOUR GOOGLE FORM LINK
+            href="https://forms.gle/your-google-form-link" 
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full text-center bg-red-600 text-white px-5 py-3 rounded-lg font-medium shadow-md hover:bg-red-700 transition-transform mt-2"
