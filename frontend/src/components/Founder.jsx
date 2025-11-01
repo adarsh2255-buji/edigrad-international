@@ -25,7 +25,7 @@ const Founder = () => {
                         onError={(e) => e.target.src = 'https://placehold.co/64x64/FEE2E2/DC2626?text=AV'}
                       />
                       <div>
-                        <h4 className="text-lg font-semibold text-gray-900">Aarav Verma</h4>
+                        <h4 className="text-lg font-semibold text-gray-900">Nithin Varghese</h4>
                         <p className="text-red-600">Co-Founder & CEO</p>
                       </div>
                     </div>
@@ -43,7 +43,7 @@ const Founder = () => {
                         onError={(e) => e.target.src = 'https://placehold.co/64x64/FEE2E2/DC2626?text=SP'}
                       />
                       <div>
-                        <h4 className="text-lg font-semibold text-gray-900">Sanya Patel</h4>
+                        <h4 className="text-lg font-semibold text-gray-900">Jyothish</h4>
                         <p className="text-red-600">Co-Founder & Head of Academics</p>
                       </div>
                     </div>
