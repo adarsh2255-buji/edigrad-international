@@ -1,0 +1,55 @@
+import React from 'react'
+import {ArrowRight} from 'lucide-react';
+
+const About = () => {
+  return (
+    <>
+           <section id="about" className="py-20 md:py-24 fade-in-section">
+              <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
+                <div className="lg:w-1/2">
+                  <img 
+                    src="https://placehold.co/600x450/FEE2E2/EF4444?text=Our+Mission" 
+                    alt="Our Mission" 
+                    className="rounded-xl shadow-2xl"
+                    onError={(e) => e.target.src = 'https://placehold.co/600x450/FEE2E2/EF4444?text=Image+Error'}
+                  />
+                </div>
+                <div className="lg:w-1/2">
+                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Vision</h2>
+                  <div className="space-y-4 text-gray-700 text-lg">
+                    <p>
+                      Edigrad is completely personalized in a way that it doesn't follow a one-time structure. Edigrad is completely dependent on the need provided by the students. At Edigrad, it's a learner's journey to realizing what they are good at and what they do best.
+                    </p>
+                    <p>
+                      With a team of experts who ensure this on a broader level, you can see a change that truly counts. We embark on superiority by admitting to being true to our mission and vision: to give education that stays at its unhinged best.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* CTA (Demo) Section */}
+            <section className="bg-red-600">
+              <div className="container mx-auto px-4 py-20 text-center">
+                <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                  Ready to Start Your Journey?
+                </h2>
+                <p className="text-lg text-red-100 max-w-2xl mx-auto mb-10">
+                  Register for a free, no-obligation live demo and see the Edigrad difference for yourself. Our team is ready to help you unlock your potential.
+                </p>
+                <a
+                  href="https://forms.gle/your-google-form-link" // <-- !! REPLACE WITH YOUR GOOGLE FORM LINK
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white text-red-600 px-10 py-4 rounded-lg font-bold text-lg shadow-lg hover:bg-gray-100 transition-all transform hover:scale-105 inline-flex items-center"
+                >
+                  Register for a Live Demo
+                  <ArrowRight size={22} className="ml-2" />
+                </a>
+              </div>
+    </section>
+    </>
+  )
+}
+
+export default About
