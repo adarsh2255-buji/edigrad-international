@@ -34,7 +34,7 @@ const Footer = () => {
                      <img 
                           src={logo}
                           alt="Edigrad International Logo" 
-                          className="w-10 h-auto rounded-full" // Adjust size as needed
+                          className="w-10 h-auto rounded-full" 
                           onError={(e) => { 
                           e.target.src = 'https://placehold.co/40x40/FEE2E2/DC2626?text=Logo'; 
                           e.target.onerror = null; 
@@ -71,7 +71,7 @@ const Footer = () => {
                     </li>
                     <li className="flex items-center">
                       <Phone size={18} className="mr-3 text-gray-400" />
-                      <a href="tel:+919876543210" className="text-gray-400 hover:text-white transition-colors">+91 98765 43210</a>
+                      <a href="tel:+918281255562" className="text-gray-400 hover:text-white transition-colors">+91 82812 55562</a>
                     </li>
                     <li className="flex items-center">
                       <Mail size={18} className="mr-3 text-gray-400" />
@@ -99,7 +99,7 @@ const Footer = () => {
                   </div>
                   <h5 className="text-lg font-semibold text-white mb-4">WhatsApp</h5>
                   <a
-                    href="https://wa.me/91YOURWHATSAPPNUMBER" // <-- !! REPLACE WITH YOUR WHATSAPP NUMBER
+                    href="https://wa.me/918281255562" 
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 text-white px-6 py-3 rounded-lg font-medium shadow-lg hover:bg-green-600 transition-all transform hover:scale-105 inline-flex items-center"
