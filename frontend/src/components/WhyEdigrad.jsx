@@ -9,10 +9,12 @@ import {
 
 } from 'lucide-react';
 import FeatureCard from './FeatureCard';
+import AnimateOnScroll from '../customHooks/AnimateOnScroll';
 
 const WhyEdigrad = () => {
   return (
     <>
+    <AnimateOnScroll>
      <section id="why-us" className="py-20 md:py-24 bg-red-50 fade-in-section">
               <div className="container mx-auto px-4">
                 <div className="text-center mb-16">
@@ -22,15 +24,28 @@ const WhyEdigrad = () => {
                   </p>
                 </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                  <FeatureCard icon={<Award size={28} />} title="Updated Curriculum" text="Always aligned with the latest syllabus and exam patterns." />
-                  <FeatureCard icon={<Computer size={28} />} title="Flexible Online Learning" text="Study anytime, anywhere, at your own pace." />
-                  <FeatureCard icon={<Target size={28} />} title="Mock Tests & Tracking" text="Regular quizzes and performance tracking with minor support." />
-                  <FeatureCard icon={<BookOpen size={28} />} title="Concept-First Approach" text="We build strong fundamentals, not just rote memorization." />
-                  <FeatureCard icon={<Users size={28} />} title="Expert Faculty" text="Learn from experienced and dedicated commerce educators." />
-                  <FeatureCard icon={<Star size={28} />} title="Personalized Journey" text="Our structure follows your needs, not a rigid plan." />
+                  <AnimateOnScroll delay={0}>
+                      <FeatureCard icon={<Award size={28} />} title="Updated Curriculum" text="Always aligned with the latest syllabus and exam patterns." />
+                    </AnimateOnScroll>
+                    <AnimateOnScroll delay={150}>
+                      <FeatureCard icon={<Computer size={28} />} title="Flexible Online Learning" text="Study anytime, anywhere, at your own pace." />
+                    </AnimateOnScroll>
+                    <AnimateOnScroll delay={300}>
+                      <FeatureCard icon={<Target size={28} />} title="Mock Tests & Tracking" text="Regular quizzes and performance tracking with minor support." />
+                    </AnimateOnScroll>
+                    <AnimateOnScroll delay={0}>
+                      <FeatureCard icon={<BookOpen size={28} />} title="Concept-First Approach" text="We build strong fundamentals, not just rote memorization." />
+                    </AnimateOnScroll>
+                    <AnimateOnScroll delay={150}>
+                      <FeatureCard icon={<Users size={28} />} title="Expert Faculty" text="Learn from experienced and dedicated commerce educators." />
+                    </AnimateOnScroll>
+                    <AnimateOnScroll delay={300}>
+                      <FeatureCard icon={<Star size={28} />} title="Personalized Journey" text="Our structure follows your needs, not a rigid plan." />
+                    </AnimateOnScroll>
                 </div>
               </div>
             </section>
+            </AnimateOnScroll>
     </>
   )
 }

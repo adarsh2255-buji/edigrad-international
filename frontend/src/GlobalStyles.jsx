@@ -1,6 +1,26 @@
 const GlobalStyles = () => (
   <style>{`
-    /* A simple fade-in animation for sections */
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+    
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+
+    /* --- Scroll-based animation classes --- */
+    .scroll-fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      /* Using a nice cubic-bezier for a "pop" effect */
+      transition: opacity 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275), 
+                  transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .scroll-fade-in.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    
+    /* --- Load-in animations (unchanged) --- */
     @keyframes fadeIn {
       from {
         opacity: 0;
@@ -10,19 +30,6 @@ const GlobalStyles = () => (
         opacity: 1;
         transform: translateY(0);
       }
-    }
-
-    /* We can apply this to sections for a subtle load-in effect */
-    .fade-in-section {
-      animation: fadeIn 1s ease-out forwards;
-      /* Start invisible, animation will make it visible */
-      opacity: 0;
-    }
-
-    /* Staggered animation for children */
-    .fade-in-section > * {
-      animation: fadeIn 1s ease-out 0.3s forwards;
-      opacity: 0;
     }
     
     /* Custom animation for the hero */

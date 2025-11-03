@@ -1,20 +1,26 @@
 import React from 'react'
 import {ArrowRight} from 'lucide-react';
+import AnimateOnScroll from '../customHooks/AnimateOnScroll';
 
 const About = () => {
   return (
     <>
+    <AnimateOnScroll>
            <section id="about" className="py-20 md:py-24 fade-in-section">
               <div className="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12">
                 <div className="lg:w-1/2">
+                <AnimateOnScroll>
                   <img 
                     src="https://placehold.co/600x450/FEE2E2/EF4444?text=Our+Mission" 
                     alt="Our Mission" 
                     className="rounded-xl shadow-2xl"
                     onError={(e) => e.target.src = 'https://placehold.co/600x450/FEE2E2/EF4444?text=Image+Error'}
                   />
+                  </AnimateOnScroll>
                 </div>
                 <div className="lg:w-1/2">
+                <AnimateOnScroll>
+                <div>
                   <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Our Vision</h2>
                   <div className="space-y-4 text-gray-700 text-lg">
                     <p>
@@ -23,11 +29,15 @@ const About = () => {
                     <p>
                       With a team of experts who ensure this on a broader level, you can see a change that truly counts. We embark on superiority by admitting to being true to our mission and vision: to give education that stays at its unhinged best.
                     </p>
+                    </div>
                   </div>
+                  </AnimateOnScroll>
                 </div>
               </div>
             </section>
+    </AnimateOnScroll>
 
+    <AnimateOnScroll>
             {/* CTA (Demo) Section */}
             <section className="bg-red-600">
               <div className="container mx-auto px-4 py-20 text-center">
@@ -47,7 +57,8 @@ const About = () => {
                   <ArrowRight size={22} className="ml-2" />
                 </a>
               </div>
-    </section>
+      </section>
+    </AnimateOnScroll>
     </>
   )
 }

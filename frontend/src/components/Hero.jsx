@@ -14,7 +14,7 @@ const Hero = () => {
                     <span className="block text-red-600">in Commerce Studies.</span>
                   </h1>
                   <p className="text-lg md:text-xl text-gray-600 max-w-xl mx-auto lg:mx-0 mb-10 hero-fade-in-delay ">
-                    Welcome to Edigrad International, your personalized online learning platform for Higher Secondary and Degree Commerce.
+                    Welcome to Edigrad International, your personalized online learning bridge for Higher Secondary and Degree Commerce.
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 hero-fade-in-delay">
                     <a
