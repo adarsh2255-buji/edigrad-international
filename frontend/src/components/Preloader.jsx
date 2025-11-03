@@ -9,7 +9,7 @@ const Preloader = () => {
          <img 
             src={logo}
             alt="Edigrad International Logo" 
-            className="w-15 h-auto rounded-full" // Adjust size as needed
+            className="w-15 h-auto rounded-full animate-bounce" // Adjust size as needed
             onError={(e) => { 
               e.target.src = 'https://placehold.co/40x40/FEE2E2/DC2626?text=Logo'; 
               e.target.onerror = null; 
@@ -17,7 +17,7 @@ const Preloader = () => {
           />
     <div className="flex flex-col items-center mt-4">
       <span className="font-bold text-3xl text-red-700 font-cent ">Edigrad International</span>
-      <span className="text-lg text-gray-500 italic mt-2 font-commercial">unlock your potential</span>
+      <span className="text-lg text-gray-900 italic mt-2 font-commercial">unlock your potential</span>
     </div>
   </div>
     </>
