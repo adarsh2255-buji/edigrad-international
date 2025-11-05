@@ -1,6 +1,6 @@
+"use client";
 import React, { useState} from 'react'; // Import useEffect
 import {Menu,X} from 'lucide-react';
-import logo from '../assets/logo.png'; 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const navItems = [
@@ -16,8 +16,7 @@ const Header = () => {
         {/* Logo and Brand */}
         <a href="#" className="flex items-center space-x-2">
           {/* Logo Image */}
-          <img 
-            src={logo}
+          <img src='/logo.png'
             alt="Edigrad International Logo" 
             className="w-15 h-auto rounded-full" // Adjust size as needed
             onError={(e) => { 

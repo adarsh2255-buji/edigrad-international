@@ -1,13 +1,12 @@
 import React from 'react'
-import logo from '../assets/logo.png';
+import logo from '../../public/logo.png';
 
 const Preloader = () => {
   return (
     <>
     <div className="fixed inset-0 z-100 flex flex-col items-center justify-center bg-white">
 {/* Logo Image */}
-         <img 
-            src={logo}
+         <img src='/logo.png'
             alt="Edigrad International Logo" 
             className="w-15 h-auto rounded-full animate-bounce" // Adjust size as needed
             onError={(e) => { 

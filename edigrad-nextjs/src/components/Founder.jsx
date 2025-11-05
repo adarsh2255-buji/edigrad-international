@@ -67,7 +67,7 @@ const Founder = () => {
                     <div className="flex items-center">
                       <img 
                         src="https://placehold.co/64x64/FEE2E2/DC2626?text=RS" 
-                        alt="Founder 2" 
+                        alt="Founder 3" 
                         className="w-16 h-16 rounded-full mr-4 border-2 border-red-200"
                         onError={(e) => e.target.src = 'https://placehold.co/64x64/FEE2E2/DC2626?text=RS'}
                       />

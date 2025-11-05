@@ -2,6 +2,21 @@ import React from 'react'
 import {ArrowRight} from 'lucide-react';
 import AnimateOnScroll from '../customHooks/AnimateOnScroll';
 
+
+export const metadata = {
+  title: "Edigrad International",
+  description: "Edigrad International offers expert online tuition for Plus One, Plus Two, B.Com, and UG/PG Commerce students. Personalized, flexible learning. Unlock your potential today!",
+  icons: {
+    icon: '/favicon.ico', // Make sure favicon.png is in /public
+  },
+  authors : [{name : "Adarsh SR"}],
+  keywords: ["Best online tuition for B.Com 1st year","Affordable Plus Two commerce coaching",
+    "Personalized online commerce tuition", "Online B.Com coaching in India",
+    "Expert faculty for commerce online"
+   ]
+};
+
+
 const About = () => {
   return (
     <>

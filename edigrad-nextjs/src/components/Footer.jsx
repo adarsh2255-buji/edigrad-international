@@ -20,7 +20,6 @@ import {
   Twitter,
   Mail,
   MapPin,} from 'lucide-react';
-import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
@@ -31,14 +30,13 @@ const Footer = () => {
                 {/* Column 1: Brand */}
                 <div>
                   <div className="flex items-center space-x-2 mb-4">
-                     <img 
-                          src={logo}
+                     <img src='/logo.png'
                           alt="Edigrad International Logo" 
                           className="w-10 h-auto rounded-full" 
-                          onError={(e) => { 
-                          e.target.src = 'https://placehold.co/40x40/FEE2E2/DC2626?text=Logo'; 
-                          e.target.onerror = null; 
-                          }}
+                          // onError={(e) => { 
+                          // e.target.src = 'https://placehold.co/40x40/FEE2E2/DC2626?text=Logo'; 
+                          // e.target.onerror = null; 
+                          // }}
                               />
                     <span className="font-bold text-xl text-white font-cent">Edigrad International</span>
                   </div>

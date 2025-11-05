@@ -1,12 +1,21 @@
-import React, { useState, useEffect } from 'react'; // Import useEffect
-import {
-  GraduationCap,
-  BookOpen,
-  CheckCircle,
-} from 'lucide-react';
 import offerData from '../data/offerData';
 import OfferCard from '../components/OfferCard';
 import AnimateOnScroll from '../customHooks/AnimateOnScroll';
+
+
+
+export const metadata = {
+  title: "Edigrad International",
+  description: "Edigrad International offers expert online tuition for Plus One, Plus Two, B.Com, and UG/PG Commerce students. Personalized, flexible learning. Unlock your potential today!",
+  icons: {
+    icon: '/favicon.ico', // Make sure favicon.png is in /public
+  },
+  authors : [{name : "Adarsh SR"}],
+  keywords: ["Online Financial Accounting tuition", "Cost Accounting online coaching","Corporate Law online classes",
+    "Online Auditing classes", "Business Studies online tuition", "Economics online tuition for class 12",
+    "Informatics Practices online coaching"
+   ]
+};
 
 const Offer = () => {
   return (
