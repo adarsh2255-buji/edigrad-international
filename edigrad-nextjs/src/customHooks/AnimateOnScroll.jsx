@@ -1,5 +1,5 @@
 import React from 'react'
-import UseOnScreen from './useOnScreen';
+import UseOnScreen from './UseOnScreen';
 
 const AnimateOnScroll =  ({ children, threshold = 0.1, delay = 0, className = '' }) => {
   const [ref, isVisible] = UseOnScreen({ threshold });
