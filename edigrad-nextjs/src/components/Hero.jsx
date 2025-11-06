@@ -31,7 +31,7 @@ const Hero = () => {
                 <div className="lg:w-1/2">
                   {/* You can replace this placeholder with a relevant image */}
                   <img 
-                    src="https://placehold.co/600x400/FEE2E2/EF4444?text=Online+Learning" 
+                    src="/img1.jpg" 
                     alt="Online Commerce Coaching"
                     className="rounded-lg shadow-2xl hero-fade-in"
                     onError={(e) => e.target.src = 'https://placehold.co/600x400/FEE2E2/EF4444?text=Image+Error'}
