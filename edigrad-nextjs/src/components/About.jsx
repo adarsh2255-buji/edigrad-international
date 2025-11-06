@@ -26,7 +26,7 @@ const About = () => {
                 <div className="lg:w-1/2">
                 <AnimateOnScroll>
                   <img 
-                    src="/img2/jpg" 
+                    src="/img2.jpg" 
                     alt="Our Mission" 
                     className="rounded-xl shadow-2xl"
                     onError={(e) => e.target.src = 'https://placehold.co/600x450/FEE2E2/EF4444?text=Image+Error'}
