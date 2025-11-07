@@ -56,8 +56,8 @@ const Footer = () => {
                     <li className="flex items-start">
                       <MapPin size={18} className="mr-3 mt-1 shrink-0 text-gray-400" />
                       <span className="text-gray-400">
-                        123 Education Street,<br />
-                        Knowledge City, KL 54321,<br />
+                        Kayamkulam<br />
+                        Kollam<br />
                         India
                       </span>
                     </li>
@@ -67,7 +67,7 @@ const Footer = () => {
                     </li>
                     <li className="flex items-center">
                       <Mail size={18} className="mr-3 text-gray-400" />
-                      <a href="mailto:info@edigrad.com" className="text-gray-400 hover:text-white transition-colors">info@edigrad.com</a>
+                      <a href="mailto:edigradinternational@gmail.com" className="text-gray-400 hover:text-white transition-colors">edigradinternational@gmail.com</a>
                     </li>
                   </ul>
                 </div>
