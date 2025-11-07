@@ -79,13 +79,13 @@ const Footer = () => {
                     <a href="https://www.facebook.com/share/16YThqNm5P/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
                       <Facebook size={24} />
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
+                    <a href="https://www.instagram.com/edigradinternational/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
                       <Instagram size={24} />
                     </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
+                    {/* <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Twitter">
                       <Twitter size={24} />
-                    </a>
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
+                    </a> */}
+                    <a href="https://www.linkedin.com/in/edigrad-international-436659386/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="LinkedIn">
                       <Linkedin size={24} />
                     </a>
                   </div>
