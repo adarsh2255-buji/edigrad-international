@@ -18,7 +18,7 @@ const Hero = () => {
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4 hero-fade-in-delay">
                     <a
-                      href="https://forms.gle/your-google-form-link" // <-- !! REPLACE WITH YOUR GOOGLE FORM LINK
+                      href="https://docs.google.com/forms/d/e/1FAIpQLScYS2k4V4odwY_Z-P5vpN7EADN3gN9-4vcwa6-IOR6JlbWlPw/viewform?pli=1"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="bg-red-600 text-white px-8 py-3 rounded-lg font-medium font-sans text-lg shadow-lg hover:bg-red-700 transition-all transform hover:scale-105 inline-flex items-center justify-center"

@@ -63,7 +63,7 @@ const About = () => {
                   Register for a free, no-obligation live demo and see the Edigrad difference for yourself. Our team is ready to help you unlock your potential.
                 </p>
                 <a
-                  href="https://forms.gle/your-google-form-link" // <-- !! REPLACE WITH YOUR GOOGLE FORM LINK
+                  href="https://docs.google.com/forms/d/e/1FAIpQLScYS2k4V4odwY_Z-P5vpN7EADN3gN9-4vcwa6-IOR6JlbWlPw/viewform?pli=1" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white text-red-600 px-10 py-4 rounded-lg font-bold text-lg shadow-lg hover:bg-gray-100 transition-all transform hover:scale-105 inline-flex items-center"

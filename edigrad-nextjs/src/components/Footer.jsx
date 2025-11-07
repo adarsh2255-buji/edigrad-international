@@ -1,48 +1,42 @@
 import React from 'react'
 import {
-  Menu,
-  X,
-  GraduationCap,
-  BookOpen,
-  CheckCircle,
-  Award,
-  Computer,
-  Target,
-  Users,
-  Star,
-  MessageSquare,
-  ArrowRight,
-  Send, // Using Send for the demo button, can be ArrowRight too
-  Phone, // Placeholder, but we'll use WhatsApp
+  Phone, 
   Instagram,
   Facebook,
   Linkedin,
   Twitter,
   Mail,
-  MapPin,} from 'lucide-react';
+  MapPin,
+} from 'lucide-react';
 
 const Footer = () => {
   return (
     <>
-     <footer id="contact" className="bg-gray-900 text-gray-300 py-16">
+      <footer id="contact" className="bg-gray-900 text-gray-300 py-16">
             <div className="container mx-auto px-4">
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
+                
+                {/* --- MODIFIED SECTION START --- */}
                 {/* Column 1: Brand */}
                 <div>
-                  <div className="flex items-center space-x-2 mb-4">
-                     <img src='/logo.png'
+                  <div className="flex items-center space-x-3 mb-4">
+                      <img src='/logo.png'
                           alt="Edigrad International Logo" 
-                          className="w-10 h-auto rounded-full" 
+                          className="w-10 h-10 rounded-full" // Changed to w-10 h-10 for consistency
                           // onError={(e) => { 
                           // e.target.src = 'https://placehold.co/40x40/FEE2E2/DC2626?text=Logo'; 
                           // e.target.onerror = null; 
                           // }}
-                              />
-                    <span className="font-bold text-xl text-white font-cent">Edigrad International</span>
+                          />
+                      {/* This new div groups the title and subtitle */}
+                      <div>
+                        <span className="font-bold text-xl text-white font-cent">Edigrad International</span>
+                        <p className="text-lg italic text-gray-400 font-commercial">unlock your potential</p>
+                      </div>
                   </div>
-                  <p className="text-xl italic mb-4 font-commercial">unlock your potential</p>
                   <p className="text-gray-400">Your personalized partner in online commerce education.</p>
                 </div>
+                {/* --- MODIFIED SECTION END --- */}
 
                 {/* Column 2: Quick Links */}
                 <div>
