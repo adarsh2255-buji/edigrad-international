@@ -76,7 +76,7 @@ const Footer = () => {
                 <div>
                   <h5 className="text-lg font-semibold text-white mb-4">Follow Us</h5>
                   <div className="flex space-x-4 mb-6">
-                    <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
+                    <a href="https://www.facebook.com/share/16YThqNm5P/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Facebook">
                       <Facebook size={24} />
                     </a>
                     <a href="#" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors" aria-label="Instagram">
