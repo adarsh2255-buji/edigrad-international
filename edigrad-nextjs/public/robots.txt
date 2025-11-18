@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.edigrad.com/
+
+# Sitemaps
+Sitemap: https://www.edigrad.com/sitemap.xml
