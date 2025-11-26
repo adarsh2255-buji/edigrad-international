@@ -15,7 +15,7 @@ const Preloader = () => {
             }}
           />
     <div className="flex flex-col items-center mt-4">
-      <span className="font-bold text-3xl text-red-700 font-cent ">Edigrad International</span>
+      <span className="font-bold text-3xl text-red-600 font-cent ">Edigrad International</span>
       <span className="text-lg text-gray-900 italic mt-2 font-commercial">unlock your potential</span>
     </div>
   </div>

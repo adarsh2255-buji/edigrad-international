@@ -25,7 +25,7 @@ const Header = () => {
             }}
           />
           <div className="flex flex-col">
-            <span className="font-bold text-xl text-red-700 font-cent">Edigrad International</span>
+            <span className="font-bold text-xl text-red-600 font-cent">Edigrad International</span>
             <span className="text-[18px] text-gray-900 italic font-commercial">unlock your potential</span>
           </div>
         </a>

@@ -18,7 +18,10 @@ export const metadata = {
   ],
   authors : [{name : "Adarsh SR"}],
   icons: {
-    icon: '/logo.png',
+    icon: [
+      { url: '/favicon.ico', size: "any"},
+      { url: "/logo.png", type: "image/png"}
+    ]
   },
   openGraph: {
     title: "Edigrad International Online Tuition for Commerce Students",
