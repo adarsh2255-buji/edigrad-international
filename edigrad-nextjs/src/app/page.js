@@ -5,6 +5,7 @@ import Founder from "@/components/Founder";
 import Hero from "@/components/Hero";
 import Offer from "@/components/Offer";
 import Preloader from "@/components/Preloader";
+import SecondarySubjects from "@/components/SecondarySubjects";
 import Testimonial from "@/components/Testimonial";
 import WhyEdigrad from "@/components/WhyEdigrad";
 import { useEffect, useState } from "react";
@@ -29,6 +30,7 @@ export default function Home() {
       <>
         <Hero />
         <Offer />
+        <SecondarySubjects />
         <WhyEdigrad />
         <Founder />
         <Testimonial />
