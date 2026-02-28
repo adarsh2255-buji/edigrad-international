@@ -39,7 +39,7 @@ const Founder = () => {
                   <div className="bg-gray-50 p-8 rounded-xl border border-gray-100">
                     <MessageSquare size={32} className="text-red-500 mb-4" />
                     <p className="text-gray-700 text-lg italic mb-6">
-                      "Our mission is to deliver education at its most transformative and uncompromising best. We believe that learning should be intellectually bold, dynamically structured, and distinct from conventional methods. Guided by distinguished educators, we emphasize the cultivation of authentic competence, analytical rigor, and enduring confidence. Our objective is to empower students not merely to recover lost ground but to transcend their previous limitations and achieve exceptional academic distinction."
+                      "''The mission is to provide transformative, high-quality education that is bold, dynamic, and distinct from conventional approaches. Guided by distinguished educators, the focus is on developing genuine competence, strong analytical skills, and lasting confidence. The ultimate goal is to help students surpass past limitations and achieve exceptional academic success."
                     </p>
                     <div className="flex items-center">
                       <img 
